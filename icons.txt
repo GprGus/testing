@@ -1,2 +1,0 @@
-circle-user: <i class="fa-regular fa-circle-user"></i>
-
