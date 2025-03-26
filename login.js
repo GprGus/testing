@@ -25,9 +25,13 @@ document.getElementById('show-register').addEventListener('click', function() {
         window.location.href = 'index.html'; // Redirecionar para a página principal
       } else {
         alert('Usuário ou senha incorretos!');
+        document.getElementById('username').value = '';
+        document.getElementById('password').value = '';
       }
     } else {
       alert('Nenhum usuário encontrado. Crie uma conta.');
+      document.getElementById('user').value = '';
+      document.getElementById('password').value = '';
     }
   });
   
